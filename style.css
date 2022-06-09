@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #7d7770;
+}
+#furkanMainDiv {
+	position: relative;
+	margin-left: 30px;
+	display: flex;
+	border: 0.01cm;
+	border-style: dashed;
+	height: 310px;
+	width: 400px;
+
+	flex-direction: column;
+}
+
+/* #furkanDiv1 {
+} */
+#furkanDiv2 {
+	display: flex;
+
+	flex-direction: column;
+	margin-top: 40px;
+}
+/* .lines {
+	border-top: 3px  solid;
+	width: 100%; */
+
+/* #furkanDiv2 p {
+} */
+
+/* .info {
+} */
+.sutun {
+	display: flex;
+
+	/* align-items: center; */
+	justify-content: space-between;
+}
+/* .info {
+	float: right;
+	position: relative;
+	padding-bottom: 10px;
+} */
+/* .info {
+} */
+.black-border {
+	flex-shrink: 0;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+}
