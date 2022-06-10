@@ -43,18 +43,18 @@ nav a:hover {
 /* Furkan's stuff */
 
 #furkanMainDiv {
-	margin-left: 40%;
-	margin-top: 15%;
+	margin: left 10%;
+	padding-top: 30%;
 	display: flex;
-	border: 0.03cm;
-	border-style: solid;
-	height: 610px;
 	width: 400px;
 	flex-direction: column;
 }
 /* #furkanMainDiv p {}
 
-#furkanDiv1 {} */
+ */
+#furkanDiv1 {
+	margin-left: 10px;
+}
 
 #furkanDiv2 {
 	display: flex;
@@ -96,10 +96,14 @@ body p {
 body span {
 	font-family: "Spline Sans Mono", monospace;
 	margin: 0;
+	margin-right: 10px;
 }
 
 #last-span {
-	display: inline;
+	display: flex;
+	direction: row;
+	justify-content: space-between;
+	margin-top: 50%;
 }
 
 #last-span span:nth-child(1) {
@@ -157,7 +161,7 @@ main {
 }
 
 #box-left {
-	width: 40%;
+	width: 10;
 }
 
 #box-right {
@@ -169,7 +173,7 @@ main {
 #top-right {
 	display: flex;
 	justify-content: space-between;
-	height: 40%;
+	height: 10;
 	width: 100%;
 }
 
