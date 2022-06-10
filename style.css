@@ -1,101 +1,188 @@
-/* to do:
-- body needs a margin left and right 
-- sabine's image needs to be slightly bigger than its container on the left side (zoom in on original image to see what I mean)
-- move nav down from its original position
-- position relative should do most of the work
-*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Sarabun:wght@600&display=swap");
 
 body {
-  background-color: bisque;
-  margin-left: 4vw;
-  margin-right: 4vw;
+	background-color: #7d7770;
+	margin-left: 4vw;
+	margin-right: 4vw;
+}
+
+body p {
+	font-family: "Spline Sans Mono", monospace;
+	margin: 0;
+}
+
+body span {
+	font-family: "Spline Sans Mono", monospace;
+	margin: 0;
 }
 
 nav {
-  position: relative;
-  bottom: -15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-top: black 2px solid;
-  margin-top: 0vh;
-  height: 15px;
+	position: relative;
+	bottom: -15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: black 2px solid;
+	margin-top: 0vh;
+	height: 15px;
 }
 
 nav a {
-  padding-top: 30px;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: black;
-  font-family: "Spline Sans Mono", monospace;
-  font-size: 1.7vh;
+	padding-top: 30px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+	font-family: "Spline Sans Mono", monospace;
+	font-size: 1.7vh;
 }
 
 nav a:hover {
-  color: black;
+	color: black;
 }
 
+/* Furkan's stuff */
+
+#furkanMainDiv {
+	margin-left: 40%;
+	margin-top: 15%;
+	display: flex;
+	border: 0.03cm;
+	border-style: solid;
+	height: 610px;
+	width: 400px;
+	flex-direction: column;
+}
+/* #furkanMainDiv p {}
+
+#furkanDiv1 {} */
+
+#furkanDiv2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	position: relative;
+	border-width: inherit;
+}
+/* .lines {
+border-top: 3px  solid;
+width: 100%; */
+/* #furkanDiv2 p {
+} */
+/* .info {
+} */
+
+.sutun {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	margin: 10px 10px;
+	border-bottom: 3px black solid;
+	border-width: 100%;
+	padding-bottom: 10px;
+}
+/* .info {
+border-bottom: ;
+} */
+/* .black-border {
+height: 2px;
+background-color:
+
+} */
+body p {
+	font-family: "Spline Sans Mono", monospace;
+	margin: 0;
+}
+
+body span {
+	font-family: "Spline Sans Mono", monospace;
+	margin: 0;
+}
+
+#last-span {
+	display: inline;
+}
+
+#last-span span:nth-child(1) {
+	margin-left: 10px;
+}
+
+#last-span span:nth-child(2) {
+	margin-right: 10px;
+	text-decoration: underline;
+	float: right;
+}
+
+.black-bottom {
+	margin: auto;
+	height: 17px;
+	background-color: rgba(0, 0, 0, 0.829);
+	width: 380px;
+	margin-bottom: 0;
+}
+
+/* Other stuff */
+
 main {
-  display: flex;
+	display: flex;
 }
 
 #box-left {
-  height: 30vh;
-  width: 50vh;
+	height: 30vh;
+	width: 50vh;
 }
 
 #box-right {
-  display: flex;
-  flex-direction: column;
-  height: 30vh;
-  width: 50vh;
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	width: 50vh;
 }
 
 #top-right {
-  height: 10vh;
-  width: 20vh;
+	height: 10vh;
+	width: 20vh;
 }
 
 #bottom-right {
-  height: 10vh;
-  width: 20vh;
-  background-color: peru;
-  display: flex;
-  height: 100vh;
+	height: 10vh;
+	width: 20vh;
+	background-color: peru;
+	display: flex;
+	height: 100vh;
 }
 
 .border-line {
-  border-right: 0.5px solid rgb(219, 219, 219);
-  z-index: -1;
+	border-right: 0.5px solid rgb(219, 219, 219);
+	z-index: -1;
 }
 
 #box-left {
-  width: 40%;
+	width: 40%;
 }
 
 #box-right {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
 }
 
 #top-right {
-  display: flex;
-  justify-content: space-between;
-  height: 40%;
-  width: 100%;
+	display: flex;
+	justify-content: space-between;
+	height: 40%;
+	width: 100%;
 }
 
 #top-right-one {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 #top-right-two {
-  flex-grow: 1;
+	flex-grow: 1;
 }
 
 #bottom-right {
-  height: 100%;
-  width: 100%;
-  background-color: peru;
+	height: 100%;
+	width: 100%;
+	background-color: peru;
 }
