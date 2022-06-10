@@ -1,94 +1,97 @@
-    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Sarabun:wght@600&display=swap');
-    * {
-        margin: 0;
-        padding: 2px;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&family=Sarabun:wght@600&display=swap");
+* {
+	margin: 0;
+	padding: 2px;
+}
 
-    body p {
-        font-family: 'Spline Sans Mono', monospace;
-        margin: 0
-    }
+body p {
+	font-family: "Spline Sans Mono", monospace;
+	margin: 0;
+}
 
-    body span {
-        font-family: 'Spline Sans Mono', monospace;
-        margin: 0
-    }
+body span {
+	font-size: medium;
+	font-family: "Spline Sans Mono", monospace;
+}
 
-    body {
-        background-color: #7d7770;
-    }
+body {
+	background-color: #7d7770;
+}
+#furkanDiv1 {
+	margin-left: 10px;
+}
 
-    #furkanMainDiv {
-        margin-left: 40%;
-        margin-top: 15%;
-        display: flex;
-        border: 0.03cm;
-        border-style: solid;
-        height: 610px;
-        width: 400px;
-        flex-direction: column;
-    }
-    /* #furkanMainDiv p {}
+#furkanMainDiv {
+	margin-left: 10%;
+	margin-top: 10%;
+	display: flex;
+	border: 0.03cm;
+	border-style: solid;
+	height: 610px;
+	width: 400px;
+	flex-direction: column;
+}
+/* #furkanMainDiv p {}
 
-    #furkanDiv1 {} */
+    */
 
-    #furkanDiv2 {
-        display: flex;
-        flex-direction: column;
-        margin-top: 40px;
-        position: relative;
-        border-width: inherit;
-    }
-    /* .lines {
+#furkanDiv2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	position: relative;
+	border-width: inherit;
+}
+/* .lines {
 	border-top: 3px  solid;
 	width: 100%; */
-    /* #furkanDiv2 p {
+/* #furkanDiv2 p {
 } */
-    /* .info {
+/* .info {
 } */
 
-    .sutun {
-        display: flex;
-        /* align-items: center; */
-        justify-content: space-between;
-        margin: 10px 10px;
-        border-bottom: 3px black solid;
-        border-width: 100%;
-        padding-bottom: 10px;
-    }
-    /* .info {
+.sutun {
+	display: flex;
+	/* align-items: center; */
+	justify-content: space-between;
+	margin: 10px 10px;
+	border-bottom: 3px black solid;
+	border-width: 100%;
+	padding-bottom: 10px;
+}
+/* .info {
     border-bottom: ;
 } */
-    /* .black-border {
+/* .black-border {
     height: 2px;
     background-color:
 
 } */
 
-    .black-border {
-        margin: 10px 10px;
-        height: 3px;
-        background-color: black;
-    }
+.black-border {
+	margin: 10px 10px;
+	height: 3px;
+	background-color: black;
+}
 
-    #last-span {
-        display: inline;
-    }
+#last-span {
+	display: inline;
+}
 
-    #last-span span:nth-child(1) {
-        margin-left: 10px;
-    }
+#last-span span:nth-child(1) {
+	margin-left: 10px;
+}
 
-    #last-span span:nth-child(2) {
-        margin-right: 10px;
-        text-decoration: underline;
-        float: right;
-    }
+#last-span span:nth-child(2) {
+	margin-right: 10px;
+	text-decoration: underline;
+	float: right;
+}
 
-    .black-bottom {
-        margin: auto;
-        height: 17px;
-        background-color: rgba(0, 0, 0, 0.829);
-        width: 380px;
-        margin-bottom: 0;
-    }
+.black-bottom {
+	margin: auto;
+	height: 17px;
+	background-color: rgba(0, 0, 0, 0.829);
+	width: 380px;
+	margin-bottom: 0;
+}
