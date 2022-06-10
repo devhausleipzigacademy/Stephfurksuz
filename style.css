@@ -15,7 +15,11 @@ nav {
 	background-color: aqua;
 }
 
-title {
+.herotext {
+	font-family: "GrenobleXLight";
+	src: url("./assets/grenoble-xlight.ttf");
+	font-size: 30rem;
+	letter-spacing: -1px;
 }
 
 main {
