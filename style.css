@@ -1,3 +1,14 @@
+/* to do:
+- body needs a margin left and right 
+- sabine's image needs to be slightly bigger than its container on the left side (zoom in on original image to see what I mean)
+- move nav down from its original position
+- position relative should do most of the work
+*/
+
+body {
+  background-color: bisque;
+}
+
 .navb {
   display: flex;
   justify-content: space-between;
@@ -19,9 +30,6 @@
 
 .navb a:hover {
   color: black;
-}
-
-title {
 }
 
 main {
@@ -51,5 +59,44 @@ main {
 #bottom-right {
   height: 10vh;
   width: 20vh;
+  background-color: peru;
+  display: flex;
+  height: 100vh;
+}
+
+.border-line {
+  border-right: 0.5px solid rgb(219, 219, 219);
+  z-index: -1;
+}
+
+#box-left {
+  width: 40%;
+  background-color: blue;
+}
+
+#box-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#top-right {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  width: 100%;
+}
+
+#top-right-one {
+  flex-grow: 1;
+}
+
+#top-right-two {
+  flex-grow: 1;
+}
+
+#bottom-right {
+  height: 100%;
+  width: 100%;
   background-color: peru;
 }
