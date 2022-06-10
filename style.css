@@ -32,7 +32,19 @@ main {
 }
 
 #bottom-right {
+	flex-direction: column;
 	height: 10vh;
 	width: 20vh;
 	background-color: peru;
+}
+
+#txt {
+	position: relative;
+	bottom: 95px;
+}
+
+#img {
+	position: relative;
+	right: 1.5px;
+	bottom: 64px;
 }
