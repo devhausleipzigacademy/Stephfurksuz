@@ -6,13 +6,17 @@
 */
 
 body {
-	background-color: bisque;
+  background-color: bisque;
 }
 
-nav {
-	width: 100%;
-	height: 5vh;
-	background-color: aqua;
+.navb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: black 2px solid;
+  margin-top: 5vh;
+  margin-left: 4vw;
+  margin-right: 4vw;
 }
 
 .herotext {
@@ -20,46 +24,84 @@ nav {
 	src: url("./assets/grenoble-xlight.ttf");
 	font-size: 30rem;
 	letter-spacing: -1px;
+.navb a {
+  padding-top: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 1.7vh;
+}
+
+.navb a:hover {
+  color: black;
 }
 
 main {
-	display: flex;
-	height: 100vh;
-}
-
-.border-line {
-	border-right: 0.5px solid rgb(219, 219, 219);
-	z-index: -1;
+  display: flex;
 }
 
 #box-left {
-	width: 40%;
-	background-color: blue;
+  height: 30vh;
+  width: 50vh;
+  background-color: blue;
 }
 
 #box-right {
-	display: flex;
-	flex-direction: column;
-	width: 60%;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  width: 50vh;
+  background-color: palevioletred;
 }
 
 #top-right {
-	display: flex;
-	justify-content: space-between;
-	height: 40%;
-	width: 100%;
-}
-
-#top-right-one {
-	flex-grow: 1;
-}
-
-#top-right-two {
-	flex-grow: 1;
+  height: 10vh;
+  width: 20vh;
+  background-color: green;
 }
 
 #bottom-right {
-	height: 100%;
-	width: 100%;
-	background-color: peru;
+  height: 10vh;
+  width: 20vh;
+  background-color: peru;
+  display: flex;
+  height: 100vh;
+}
+
+.border-line {
+  border-right: 0.5px solid rgb(219, 219, 219);
+  z-index: -1;
+}
+
+#box-left {
+  width: 40%;
+  background-color: blue;
+}
+
+#box-right {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#top-right {
+  display: flex;
+  justify-content: space-between;
+  height: 40%;
+  width: 100%;
+}
+
+#top-right-one {
+  flex-grow: 1;
+}
+
+#top-right-two {
+  flex-grow: 1;
+}
+
+#bottom-right {
+  height: 100%;
+  width: 100%;
+  background-color: peru;
 }
